@@ -30,8 +30,9 @@ class HomePage extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => QuestionScreen(
+                      builder: (context) => DetailedView(
                           categoryName: categories[index].name,
+                          categoryImageUrl: categories[index].imageUrl,
                           questions: categories[index].questions),
                     ),
                   ),
