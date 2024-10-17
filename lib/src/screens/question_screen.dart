@@ -82,6 +82,7 @@ class _DetailedViewState extends State<DetailedView> {
                   icon:const Icon(Icons.arrow_back, color:Colors.amber),
                   onPressed: () {
                     Navigator.pop(context);
+                    
                   },
                 ),
               ),
